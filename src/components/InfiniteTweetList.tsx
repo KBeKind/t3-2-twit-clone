@@ -4,7 +4,7 @@ import InfiniteScroll from "react-infinite-scroll-component";
 type Tweet = {
   id: string;
   content: string;
-  createAt: Date;
+  createdAt: Date;
   likeCount: number;
   likedByMe: boolean;
   user: { id: string; image: string | null; name: string | null };
